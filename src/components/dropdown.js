@@ -16,11 +16,12 @@ const Dropdown = ({ placeholder, items }) => {
   });
   // handler functions
 
-  //function to show dropdown list
+  //function to handle click event 
   const handleInputClick = (e) => {
     e.stopPropagation();
     setShowMenu(!showMenu);
   };
+  // function to show selected value
   const getDisplay = () => {
     if (selectedValue) return selectedValue;
     return placeholder;
