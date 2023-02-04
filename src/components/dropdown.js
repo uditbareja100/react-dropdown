@@ -47,10 +47,9 @@ const Dropdown = ({ placeholder, items }) => {
           <div className="dropdown-selected-value">{getDisplay()}</div>
 
           <div className="dropdown-tools">
-            <div className="dropdown-tool">
               <i className="fa-solid fa-angle-down"></i>
-            </div>
           </div>
+                                                    
         </div>
         {showMenu && (
           <div className="dropdown-menu">
